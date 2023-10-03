@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.s1-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px 130px 0px;
+    background-color: #404eed;
+    background-size: cover;
+    background-image: url(/public/assets/images/fundo.svg);
+    background-position: -360px 0px;
+    color: #ffffff;
+    position: relative;
+    height: 650px;
+    overflow: hidden;
+
+    
+
+}
+
+.s1-cabecalho {
+    width: 1280px;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 130px;
+    font-family: font4;
+}
+
+
+.s1-container h1 {
+    font-family: font1;
+    font-size: 56px;
+    width: 500px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+
+
+.s1-container p {
+    text-align: center;
+    font-family: font2;
+    font-size: 20px;
+    width: 780px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    line-height: 30px;
+
+}
+
+
+.s1-logo svg {
+    color: #ffffff
+}
+
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.menu a {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 140%;
+    font-weight: 600;
+    margin: 5px 20px;
+
+
+
+}
+
+.botao-login:hover{
+    box-shadow: 0px 15px 20px rgb(0 0 0/30%);
+    color: blue;
+}
+.botao-login a {
+
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 8px 14px;
+    text-decoration: none;
+    color: black;
+    font-family: font3;
+    font-size: 14px;
+}
+
+
+.botao-login {
+    border-radius: 100%;
+
+}
+
+
+
+
+.s1-buttons {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+
+.s1-buttons a {
+    font-family: font3;
+    padding: 16px 32px;
+    background-color: white;
+    color: #23272a;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.botao2 {
+    background-color: #23272a !important;
+    color: white !important;
+}
+
+.s1-buttons>a:hover {
+    box-shadow: 0px 8px 15px rgb(0 0 0/20%);
+    color: blue;
+}
+
+.s1-images {
+    position: absolute;
+    top: 300px;
+
+}
+
+.s1-images>.ladoe {
+    position: absolute;
+    left: 370px;
+    top: -10px;
+
+}
+
+.s1-images>.ladod {
+    position: absolute;
+    right: 340px;
+
+}
+
+.s2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    height: 650px;
+    margin-bottom: 90px;
+    
+}
+
+.s2-images{
+    margin-top: 100px;
+}
+
+.s2-textos {
+    width: 350px;
+    color: #23272a;;
+    
+    
+}
+
+.s2-textos h1{
+    line-height: 120%;
+    font-size: 48px;
+    margin-top: 125px;
+    font-family: font6;
+}
+
+
+.s2-textos p{
+    width: 380px;
+    margin-top: 24px;
+    font-size: 20px;
+    font-family: font2;
+    line-height: 1.625;
+}
+
+.s3-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    background-color: #f6f6f6;
+    
+}
+
+.s3-textos{
+    width: 500px;
+    color: #23272a;;
+    
+}
+
+.s3-textos h1{
+    line-height: 120%;
+    font-size: 48px;
+    font-family: font6; 
+}
+
+.s3-textos p{
+    margin-top: 24px;
+    font-family: font2;
+    font-size: 20px;
+    line-height: 1.625;
+    width: 380px;
+}
+
+.s4-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 125px 0px;
+    gap: 110px;
+    
+}
+
+.s4-images{
+
+    max-width: 678px;
+    max-height: 440px;
+    width: 100%;
+    margin-top: -10px;
+    
+    
+}
+
+
+.s4-textos 
+{ 
+    display: flex;
+    flex-direction: column;
+    color: #23272a;
+    width: 350px;
+    margin-top: 10px;
+    
+   
+    
+}
+
+.s4-textos h1
+{
+    
+    font-size: 48px;
+    font-family: font6;
+
+   
+}
+
+.s4-textos > p
+{
+    margin-top:  20px;   
+    font-family: font2;
+    font-size: 20px;
+    line-height: 1.625;
+    
+}
+
+
+.s5-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    padding: 125px 0px;
+}
+
+.s5-textos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #23272a;
+
+}
+
+.s5-textos h1{
+    text-align: center;
+    font-family: font1;
+    font-size: 50px;
+    width: 1000px;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.s5-textos p{
+    text-align: center;
+    font-family: font2;
+    font-size: 25px;
+    line-height: 1.625;
+    width: 1200px;
+    margin-bottom: 30px;
+}
+
+.s5-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.s5-images > img
+{
+    width: 1200px;
+}
+
+.debaixo img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+}
+
+.s5-container h4{
+    text-align: center;
+    font-family: font6;
+    color: #23272a;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: -30px;
+}
+
+
+.s5-buttons {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    margin-top: 50px;
+}
+
+
+.s5-buttons a {
+    font-family: font3;
+    padding: 20px 50px;
+    font-size: 25px;
+    background-color: #5865f2;;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.s5-buttons>a:hover {
+    box-shadow: 0px 8px 15px rgb(0 0 0/40%);
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: #23272a;
+    color: white;   
+    flex-direction: row;
+    padding-top: 80px;
+    padding-bottom: 64px
+
+  
+}
+
+
+.infobox{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 400px;
+    margin-right: 220px;
+
+}
+
+.redesocial{
+    word-spacing: 27px;
+    
+}
+
+.socialIcon-38NB2e{
+    width: 30px;
+    height: 30px;
+    
+    
+}
+
+
+.linguagem{
+    font-size: 18px;
+    line-height: 18px;
+    font-family: font2;
+    display: flex;
+    flex-direction:column;
+    gap: 10px
+    
+}
+
+
+
+.linguagem img{
+   width: 30px;
+   height: auto;
+   
+}
+
+.s6-cabecalho{
+    display: flex;
+    flex-direction: row;
+    font-family: font2;
+    font-size: 20px;
+    margin-bottom: 100px;
+    gap: 70px;
+    
+}
+
+h5{
+    margin-bottom: 20px;
+}
+
+
+.s6-cabecalho h5{
+   font-size: 20px;
+   color:#5865f2;
+  
+   
+}
+
+.s6-cabecalho a:hover{
+    text-decoration: underline;
+
+}
+
+.s6-cabecalho a{
+    text-decoration: none;
+    color: white;
+    margin-top: 8px;
+    
+}
+
+.s6-logo-botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #23272a;
+  
+  
+}
+
+.s6-logo-botao svg{
+    color: white;
+}
+
+.produto, .empresa, .produto, .politica, .recursos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+.produto, .empresa{
+    margin-bottom: 200px
+    
+}
+
+.politica{
+    margin-bottom: 100px
+}
+
+
+.botao-registrar {
+        background-color: #5865f2;
+        border-radius: 40px;
+        padding: 8px 50px;
+        text-decoration: none;
+        color: white;
+        font-family: font3;
+        font-size: 14px;
+        display: flex;
+        
+        
+}
+
